@@ -50,22 +50,40 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 17  #thjis is an integer variable 
 # 2. name
+name = "Abi" # this is a string variable 
 # 3. song
+song = "Mary had a little lamb" #string varaible
 # 4. food
+food = "chicken" #string variable
 # 5. number
+number = 11 # integer
 
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
-
-
+# concatanation-----+ around your variables
+print(" Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+print("There was a number " + str(number) + " as well")
+#put the age and number in a new sentence 
+print(" There was a girl named " + name + " who had " + str(number) + " cats. ")
+#put the variables in a new sentence
+date_of_birth = 2021
+number2 = 123
+number3 = 123.456
+number4 = 123.33
+number5 = 4555
+print( "Someone born in " + str(date_of_birth) + " brought " + str(number2) + " apples to a party. Someone else brought " +str(number3) + " ounces of apple juice. At the end of the day, they drank " + str(number4) + " ounces. There was a total of " + str(number5) + " people at the party.")
+#how to use f string
+print( f" The date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print( f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+print(f"Still, {name} was the best coder on the team and could write {number} lines of code everyday. Maybe {song} was {name}'s secret power?")
 ##########################################################################################
 
 
