@@ -262,8 +262,14 @@ print(round(num1,num2))
 ##########################################################################################
 # # mad libs game
 # print("Roses are {color}")
+color=input("white")
+print("Roses are {color}")
 # print("{plural noun} are blue")
+plural_noun= input("skies")
+print("{plural_noun} are blue")
 # print("I love {celebrity}")
+celebrity= input("Jungkook")
+print()
 # # On to codehs.com
 
 
